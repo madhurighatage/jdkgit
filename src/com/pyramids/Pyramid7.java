@@ -1,0 +1,18 @@
+package com.pyramids;
+
+public class Pyramid7 {
+
+	public static void main(String[] args) {
+		for(int line = 1; line<=5; line ++) {
+			for(int space = 3; space>=line-1;space--) {
+				System.out.print(" ");
+			}
+			for(int star=1;star<=line;star++){
+				System.out.print("* ");
+			}
+			System.out.println("");
+		}
+		
+	}
+
+}
